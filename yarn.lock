@@ -8429,6 +8429,11 @@ parse-passwd@^1.0.0:
   resolved "https://registry.yarnpkg.com/parse-passwd/-/parse-passwd-1.0.0.tgz#6d5b934a456993b23d37f40a382d6f1666a8e5c6"
   integrity sha1-bVuTSkVpk7I9N/QKOC1vFmao5cY=
 
+parse-srcset@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/parse-srcset/-/parse-srcset-1.0.2.tgz#f2bd221f6cc970a938d88556abc589caaaa2bde1"
+  integrity sha1-8r0iH2zJcKk42IVWq8WJyqqiveE=
+
 parse5@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
@@ -10406,18 +10411,6 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sanitize-html@^1.19.1:
-  version "1.26.0"
-  resolved "https://registry.yarnpkg.com/sanitize-html/-/sanitize-html-1.26.0.tgz#ab38d671526b9b7c08aa7af7f9ad5a73fcc1bbe4"
-  integrity sha512-xriDBT2FbfN0ZKCcX6H6svkh1bZpO2e5ny05RQGZY6vFOMAU13La2L5YYf3XpcjXSksCYXzPj7YPvyGp5wbaUA==
-  dependencies:
-    chalk "^2.4.1"
-    htmlparser2 "^4.1.0"
-    lodash "^4.17.15"
-    postcss "^7.0.27"
-    srcset "^2.0.1"
-    xtend "^4.0.1"
-
 sanitize-html@^1.27.1:
   version "1.27.1"
   resolved "https://registry.yarnpkg.com/sanitize-html/-/sanitize-html-1.27.1.tgz#ce147951aa3defba13448e2ca8a4e18d8f2e2cd7"
@@ -10427,6 +10420,16 @@ sanitize-html@^1.27.1:
     lodash "^4.17.15"
     postcss "^7.0.27"
     srcset "^2.0.1"
+
+sanitize-html@^1.27.2:
+  version "1.27.4"
+  resolved "https://registry.yarnpkg.com/sanitize-html/-/sanitize-html-1.27.4.tgz#3864e7562fc708cefabcb0d51bbacde3411504cb"
+  integrity sha512-VvY1hxVvMXzSos/LzqeBl9/KYu3mkEOtl5NMwz6jER318dSHDCig0AOjZOtnoCwAC3HMs9LhfWkPCmQGttb4ng==
+  dependencies:
+    htmlparser2 "^4.1.0"
+    lodash "^4.17.15"
+    parse-srcset "^1.0.2"
+    postcss "^7.0.27"
 
 sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
